@@ -1,12 +1,19 @@
-# Starter Next/Hardhat Project
+Metacrafters ATM
+Welcome to the Metacrafters ATM! This application allows users to deposit and withdraw ETH using MetaMask.
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+Getting Started
+To get started with the Metacrafters ATM, follow these steps:
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
-
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+Clone this repository to your local machine.
+Install dependencies by running npm install.
+Start the development server with npm start.
+Open the application in your web browser.
+Usage
+Connect your MetaMask wallet.
+View your account balance.
+Input the amount to deposit or withdraw.
+Click the corresponding button to complete the transaction.
+Technologies Used
+React
+ethers.js
+MetaMask
